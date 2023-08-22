@@ -7,7 +7,7 @@ In this challenge, you’ll use your knowledge of Python and unsupervised learni
 - Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
   - The first five rows of the scaled DataFrame should appear as follows:
-  <img width="998" alt="scaled_DataFrame (1)" src="https://user-images.githubusercontent.com/112741203/235854421-feffa367-cf33-43fa-b893-dce546ab9282.png">
+  <img width="800" alt="scaled_DataFrame" src="https://user-images.githubusercontent.com/112741203/235854421-feffa367-cf33-43fa-b893-dce546ab9282.png">
 ## Find the Best Value for k Using the Original Scaled DataFrame
 Use the elbow method to find the best value for k using the following steps:
 - Create a list with the number of k values from 1 to 11.
@@ -34,7 +34,7 @@ Use the following steps to cluster the cryptocurrencies for the best value for k
     - Variance total is (0.37+0.35+0.18)*100 = 90%.
 - Create a new DataFrame with the PCA data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
   - The first five rows of the PCA DataFrame should appear as follows:
-<img width="303" alt="PCA_DataFrame (1)" src="https://user-images.githubusercontent.com/112741203/235854922-784ddd9d-1479-4a8d-b586-466b7b5a8a80.png">
+<img width="380" alt="PCA_DataFrame " src="https://user-images.githubusercontent.com/112741203/235854922-784ddd9d-1479-4a8d-b586-466b7b5a8a80.png">
 
 ## Find the Best Value for k Using the PCA Data
 Use the elbow method on the PCA data to find the best value for k using the following steps:
